@@ -1,0 +1,13 @@
+ADT(Abstract Data Type) : 추상형 자료형
+자료구조의 대수적인 기능에 대해 설명한 자료형, 
+(int Take_money(wallet *beanpole, int howmuch,int remain) beanpole을 받아서 howmuch 만큼 뺀다. remain 만큼 return한다)
+
+리스트 : 데이터를 나란히 저장한다. / 중복을 허용한다.
+    배열 리스트 : 배열을 기반으로 하는 리스트
+    연결 리스트 : 메모리 동적 할당을 기반으로 하는 리스트
+
+    리스트의 특징에서 기반하는 리스트의 ADT
+    ㄴ 나란히 저장한다 : 순서대로 리스트를 읽고 저장하고 삭제한다.
+    첫번째 읽기, 다음 읽기 // 읽고 있는 부분에서 insert, remove, count
+
+
