@@ -29,7 +29,9 @@ void LInsert(List * plist, LData data)
     plist->arr[plist->numOfData] = data;
     plist->numOfData ++;
 }
-
+//Linsert에서는 LData data를, LFirst에서는 LData *pdata를 쓰는 이유?
+//함수에서 직접 참조 : 딱 그값만 쓰고 인풋한 변수에는 관심 없을 때 -> insert에서는 값만 뽑아서 리스트에 넣고 그외엔 관심없음
+//함수에서 간접 참조(pointer) : 주소값으로 간접 참조해서 input한 값을 변경 시킬 때->LData에서는 
 int LFirst(List * plist, LData * pdata)
 {
 
